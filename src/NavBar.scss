@@ -1,0 +1,19 @@
+$animate: all 0.2s ease-in-out;
+
+.nav {
+    display: flex;
+    margin-right: 55px;
+}
+.nav__link {
+    color: #ffff;
+    margin-top: 6px;
+    margin-right: 12px;
+    margin-left: 12px;
+
+    &:hover {
+        font-size: 15px;
+        cursor: pointer;
+        transition: .5s;
+        color: #fb6518;
+    }
+}

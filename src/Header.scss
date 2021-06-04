@@ -1,0 +1,45 @@
+.app__header {
+    display: flex;
+    align-items: center;
+    height: 110px;
+    justify-content: space-between;
+}
+
+.app__title {
+    display: flex;
+    align-items: center;
+  
+    h1 {
+        margin-left: 15px;
+        color: #ffff;
+    }
+    
+    img {
+        border-radius: 4px;
+        margin-left: 135px;
+        height: 25px;
+        width: 25px;
+    }
+  }
+
+  .app__message { 
+    display: flex;
+    justify-content: center;
+    border: 1px solid #b3bace;
+    border-radius: 7px;
+    margin-left: 500px;
+    margin-right: 500px;
+    animation: border-pulsate 2s infinite;
+
+    p {
+        text-align: center;
+        font-size: 13px;
+        color: #b3bace;
+    }
+  }
+
+@keyframes border-pulsate {
+    0% { border-color: white;}
+    50% { border-color: #4e5059;}
+    100% { border-color: white; }
+}
